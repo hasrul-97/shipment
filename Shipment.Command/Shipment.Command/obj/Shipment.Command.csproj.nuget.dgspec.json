@@ -1,0 +1,480 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command\\Shipment.Command.csproj": {}
+  },
+  "projects": {
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj",
+        "projectName": "Shipment.Command.Abstraction",
+        "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command.BusinessLogic\\Shipment.Command.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\Shipment.Command\\Shipment.Command.BusinessLogic\\Shipment.Command.BusinessLogic.csproj",
+        "projectName": "Shipment.Command.BusinessLogic",
+        "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.BusinessLogic\\Shipment.Command.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\Shipment.Command.DataAccess.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\Shipment.Command.DataAccess.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\Shipment.Command.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\Shipment.Command.DataAccess.csproj",
+        "projectName": "Shipment.Command.DataAccess",
+        "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\Shipment.Command.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command.DependencyInjection\\Shipment.Command.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DependencyInjection\\Shipment.Command.DependencyInjection.csproj",
+        "projectName": "Shipment.Command.DependencyInjection",
+        "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DependencyInjection\\Shipment.Command.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.BusinessLogic\\Shipment.Command.BusinessLogic.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.BusinessLogic\\Shipment.Command.BusinessLogic.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\Shipment.Command.DataAccess.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DataAccess\\Shipment.Command.DataAccess.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Utilities\\Shipment.Command.Utilities.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Utilities\\Shipment.Command.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj",
+        "projectName": "Shipment.Command.Entities",
+        "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Npoi.Mapper": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command.Utilities\\Shipment.Command.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Utilities\\Shipment.Command.Utilities.csproj",
+        "projectName": "er",
+        "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Utilities\\Shipment.Command.Utilities.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Npoi.Mapper": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\Shipment.Command\\Shipment.Command\\Shipment.Command.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\Shipment.Command\\Shipment.Command\\Shipment.Command.csproj",
+        "projectName": "Shipment.Command",
+        "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command\\Shipment.Command.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Abstraction\\Shipment.Command.Abstraction.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.DependencyInjection\\Shipment.Command.DependencyInjection.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.DependencyInjection\\Shipment.Command.DependencyInjection.csproj"
+              },
+              "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj": {
+                "projectPath": "B:\\Shipment\\Shipment.Command\\Shipment.Command.Entities\\Shipment.Command.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

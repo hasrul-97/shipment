@@ -1,0 +1,14 @@
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\bin\Release\netcoreapp3.1\ExceptionHandler.DataAccess.deps.json
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\bin\Release\netcoreapp3.1\ExceptionHandler.DataAccess.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\bin\Release\netcoreapp3.1\ExceptionHandler.DataAccess.pdb
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\bin\Release\netcoreapp3.1\ExceptionHandler.Abstraction.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\bin\Release\netcoreapp3.1\ExceptionHandler.Entities.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\bin\Release\netcoreapp3.1\ExceptionHandler.Abstraction.pdb
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\bin\Release\netcoreapp3.1\ExceptionHandler.Entities.pdb
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\obj\Release\netcoreapp3.1\ExceptionHandler.DataAccess.csprojAssemblyReference.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\obj\Release\netcoreapp3.1\ExceptionHandler.DataAccess.AssemblyInfoInputs.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\obj\Release\netcoreapp3.1\ExceptionHandler.DataAccess.AssemblyInfo.cs
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\obj\Release\netcoreapp3.1\ExceptionHandler.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\obj\Release\netcoreapp3.1\ExceptionHandler.DataAccess.csproj.CopyComplete
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\obj\Release\netcoreapp3.1\ExceptionHandler.DataAccess.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.DataAccess\obj\Release\netcoreapp3.1\ExceptionHandler.DataAccess.pdb

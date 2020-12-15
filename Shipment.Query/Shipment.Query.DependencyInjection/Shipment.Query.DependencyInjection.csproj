@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shipment.Query.Abstraction\Shipment.Query.Abstraction.csproj" />
+    <ProjectReference Include="..\Shipment.Query.BusinessLogic\Shipment.Query.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Shipment.Query.DataAccess\Shipment.Query.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

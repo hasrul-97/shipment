@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shipment.Command.Abstraction\Shipment.Command.Abstraction.csproj" />
+    <ProjectReference Include="..\Shipment.Command.DataAccess\Shipment.Command.DataAccess.csproj" />
+    <ProjectReference Include="..\Shipment.Command.Entities\Shipment.Command.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

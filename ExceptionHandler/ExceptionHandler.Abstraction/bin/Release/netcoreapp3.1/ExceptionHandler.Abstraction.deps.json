@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ExceptionHandler.Abstraction/1.0.0": {
+        "dependencies": {
+          "ExceptionHandler.Entities": "1.0.0"
+        },
+        "runtime": {
+          "ExceptionHandler.Abstraction.dll": {}
+        }
+      },
+      "ExceptionHandler.Entities/1.0.0": {
+        "runtime": {
+          "ExceptionHandler.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExceptionHandler.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExceptionHandler.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shipment.Query.Abstraction\Shipment.Query.Abstraction.csproj" />
+    <ProjectReference Include="..\Shipment.Query.Entities\Shipment.Query.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\bin\Release\netcoreapp3.1\ExceptionHandler.Entities.deps.json
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\bin\Release\netcoreapp3.1\ExceptionHandler.Entities.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\bin\Release\netcoreapp3.1\ExceptionHandler.Entities.pdb
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\obj\Release\netcoreapp3.1\ExceptionHandler.Entities.csprojAssemblyReference.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\obj\Release\netcoreapp3.1\ExceptionHandler.Entities.AssemblyInfoInputs.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\obj\Release\netcoreapp3.1\ExceptionHandler.Entities.AssemblyInfo.cs
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\obj\Release\netcoreapp3.1\ExceptionHandler.Entities.csproj.CoreCompileInputs.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\obj\Release\netcoreapp3.1\ExceptionHandler.Entities.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.Entities\obj\Release\netcoreapp3.1\ExceptionHandler.Entities.pdb

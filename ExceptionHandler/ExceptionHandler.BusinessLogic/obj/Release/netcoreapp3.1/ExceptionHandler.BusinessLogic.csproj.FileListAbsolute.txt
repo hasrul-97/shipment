@@ -1,0 +1,14 @@
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\bin\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.deps.json
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\bin\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\bin\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.pdb
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\bin\Release\netcoreapp3.1\ExceptionHandler.Abstraction.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\bin\Release\netcoreapp3.1\ExceptionHandler.Entities.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\bin\Release\netcoreapp3.1\ExceptionHandler.Abstraction.pdb
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\bin\Release\netcoreapp3.1\ExceptionHandler.Entities.pdb
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\obj\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.csprojAssemblyReference.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\obj\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\obj\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.AssemblyInfo.cs
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\obj\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\obj\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.csproj.CopyComplete
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\obj\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.dll
+C:\Users\M1056247\Desktop\File-Management\Back-end\FileManagement\ExceptionHandler\ExceptionHandler.BusinessLogic\obj\Release\netcoreapp3.1\ExceptionHandler.BusinessLogic.pdb

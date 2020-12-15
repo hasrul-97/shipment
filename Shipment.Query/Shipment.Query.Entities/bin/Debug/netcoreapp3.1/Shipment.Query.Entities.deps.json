@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Shipment.Query.Entities/1.0.0": {
+        "runtime": {
+          "Shipment.Query.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shipment.Query.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

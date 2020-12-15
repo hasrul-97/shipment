@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\Shipment\\ExceptionHandler\\ExceptionHandler\\ExceptionHandler.csproj": {}
+  },
+  "projects": {
+    "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj",
+        "projectName": "ExceptionHandler.Abstraction",
+        "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\ExceptionHandler.Entities.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\ExceptionHandler.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.BusinessLogic\\ExceptionHandler.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.BusinessLogic\\ExceptionHandler.BusinessLogic.csproj",
+        "projectName": "ExceptionHandler.BusinessLogic",
+        "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.BusinessLogic\\ExceptionHandler.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DataAccess\\ExceptionHandler.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DataAccess\\ExceptionHandler.DataAccess.csproj",
+        "projectName": "ExceptionHandler.DataAccess",
+        "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DataAccess\\ExceptionHandler.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DependancyInjection\\ExceptionHandler.DependancyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DependancyInjection\\ExceptionHandler.DependancyInjection.csproj",
+        "projectName": "ExceptionHandler.DependancyInjection",
+        "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DependancyInjection\\ExceptionHandler.DependancyInjection.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DependancyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Abstraction\\ExceptionHandler.Abstraction.csproj"
+              },
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.BusinessLogic\\ExceptionHandler.BusinessLogic.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.BusinessLogic\\ExceptionHandler.BusinessLogic.csproj"
+              },
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DataAccess\\ExceptionHandler.DataAccess.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DataAccess\\ExceptionHandler.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\ExceptionHandler.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\ExceptionHandler.Entities.csproj",
+        "projectName": "ExceptionHandler.Entities",
+        "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\ExceptionHandler.Entities.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Shipment\\ExceptionHandler\\ExceptionHandler\\ExceptionHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler\\ExceptionHandler.csproj",
+        "projectName": "ExceptionHandler",
+        "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler\\ExceptionHandler.csproj",
+        "packagesPath": "C:\\Users\\hasru\\.nuget\\packages\\",
+        "outputPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DependancyInjection\\ExceptionHandler.DependancyInjection.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.DependancyInjection\\ExceptionHandler.DependancyInjection.csproj"
+              },
+              "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\ExceptionHandler.Entities.csproj": {
+                "projectPath": "B:\\Shipment\\ExceptionHandler\\ExceptionHandler.Entities\\ExceptionHandler.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Steeltoe.Discovery.ClientCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Steeltoe.Discovery.Eureka": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
